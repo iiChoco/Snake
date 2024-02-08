@@ -1,5 +1,7 @@
 package Snake;
 
+import utilities.Misc;
+
 import java.awt.*;
 import java.util.ArrayList;
 
@@ -37,8 +39,14 @@ public class Snake extends Rectangle {
 
     }
 
-    public void draw(Graphics2D pb) {
 
+    public void draw(Graphics2D pb, int ind) {
+        if (ind == 0) {
+            switch (dir) {
+                case 0:
+                    pb.drawImage(Misc.loadImage("head_up.png"), x, y, width, height, null);
+            }
+        }
     }
 
 }
