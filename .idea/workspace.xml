@@ -9,34 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fe0dbe6-05d5-4652-8fd7-4ce5ffaa96b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Snake.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/apple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/body_bottomleft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/body_bottomright.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/body_horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/body_topleft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/body_topright.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/body_vertical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/head_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/head_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/head_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/head_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/tail_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/tail_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/tail_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/tail_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Snake/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Snake/GameRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Snake/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Snake/SnakeHead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utilities/GDV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utilities/Misc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Snake/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Snake/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Snake/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Snake/GameRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Snake/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Snake/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Snake/SnakeHead.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +27,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="iiChoco" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="noSH" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -102,6 +88,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.GameRunner" />
+        <item itemvalue="Application.GameRunner" />
+        <item itemvalue="Application.GameRunner" />
+        <item itemvalue="Application.GameRunner" />
+        <item itemvalue="Application.GameRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -136,11 +126,27 @@
       <workItem from="1707244822157" duration="6254000" />
       <workItem from="1707279448628" duration="535000" />
       <workItem from="1707324864962" duration="32000" />
-      <workItem from="1707324901514" duration="5458000" />
+      <workItem from="1707324901514" duration="5915000" />
     </task>
+    <task id="LOCAL-00001" summary="0.0.1">
+      <option name="closed" value="true" />
+      <created>1707417039639</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707417039639</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="0.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.1" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
