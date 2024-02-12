@@ -14,12 +14,14 @@ public class GameRunner extends GDV5 {
     private final int height = GDV5.getMaxWindowY() / unit;
     private final int initial = 3;
     private final ArrayList<Snake> snake = new ArrayList<>();
+    private final Apple apple;
 
 
     public GameRunner() {
         for (int i = 0; i < initial; i++) {
-            snake.add(new Snake(200 - i * 20, 200, 20, 20));
+            snake.add(new Snake(200, GDV5.getMaxWindowY() / 2 + i * unit, 20, 20));
         }
+        apple = new Apple((int) (Math.random() * width) * unit, (int) (Math.random() * height) * unit, unit, unit);
     }
 
     public static void main(String[] args) {
@@ -30,11 +32,15 @@ public class GameRunner extends GDV5 {
     @Override
     public void update() {
         timer++;
-        if (timer % 10 == 0) {
+        snake.getFirst().turn(snake, 0, unit);
+        snake.getFirst().colDet(snake, apple);
+        if (timer % 10 == 0 && !snake.getFirst().getTurn()) {
             for (Snake s : snake) {
-                s.move(snake, snake.indexOf(s), 20);
+                s.move(snake, snake.indexOf(s), unit);
+                s.setTurn(false);
             }
         }
+        snake.getFirst().setTurn(false);
     }
 
 
@@ -50,7 +56,10 @@ public class GameRunner extends GDV5 {
                 }
                 win.fillRect(i * unit, j * unit, unit, unit);
             }
-
+        }
+        apple.draw(win);
+        for (Snake s : snake) {
+            s.draw(win, snake.indexOf(s), unit, snake);
         }
     }
 

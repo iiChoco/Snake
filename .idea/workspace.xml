@@ -9,6 +9,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fe0dbe6-05d5-4652-8fd7-4ce5ffaa96b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Resources/SASAN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/g_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/g_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/g_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/g_up.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Snake/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Snake/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Snake/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Snake/GameRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Snake/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Snake/Snake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +39,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="noSH" />
+        <entry key="$PROJECT_DIR$" value="Smooth" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,6 +132,8 @@
       <workItem from="1707279448628" duration="535000" />
       <workItem from="1707324864962" duration="32000" />
       <workItem from="1707324901514" duration="5915000" />
+      <workItem from="1707494605502" duration="3531000" />
+      <workItem from="1707774877520" duration="345000" />
     </task>
     <task id="LOCAL-00001" summary="0.0.1">
       <option name="closed" value="true" />
