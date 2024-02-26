@@ -9,11 +9,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fe0dbe6-05d5-4652-8fd7-4ce5ffaa96b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Resources/SASAN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/g_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/g_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/g_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/g_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/InfiniteVoid.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/blue.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/domain.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/eat.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/enemybody_bottomleft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/enemybody_bottomright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/enemybody_horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/enemybody_topleft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/enemybody_topright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/enemybody_vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/enemyhead_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/enemyhead_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/enemyhead_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/enemyhead_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/enemytail_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/enemytail_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/enemytail_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/enemytail_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Snake/Powerups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Snake/Splash.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Snake/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Snake/Apple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Snake/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Snake/GameRunner.java" afterDir="false" />
@@ -134,6 +149,18 @@
       <workItem from="1707324901514" duration="5915000" />
       <workItem from="1707494605502" duration="3531000" />
       <workItem from="1707774877520" duration="345000" />
+      <workItem from="1707854641624" duration="2805000" />
+      <workItem from="1707887717338" duration="22000" />
+      <workItem from="1707936184199" duration="814000" />
+      <workItem from="1708115551713" duration="7000" />
+      <workItem from="1708123004062" duration="605000" />
+      <workItem from="1708140152247" duration="8000" />
+      <workItem from="1708140606491" duration="43000" />
+      <workItem from="1708140711381" duration="17000" />
+      <workItem from="1708140826326" duration="303000" />
+      <workItem from="1708288237712" duration="598000" />
+      <workItem from="1708625880177" duration="1578000" />
+      <workItem from="1708913109818" duration="12580000" />
     </task>
     <task id="LOCAL-00001" summary="0.0.1">
       <option name="closed" value="true" />
@@ -155,5 +182,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="0.0.1" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Snake/Snake.java</url>
+          <line>271</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

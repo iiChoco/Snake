@@ -15,8 +15,20 @@ public class Apple extends Rectangle {
         this.y = (int) (Math.random() * 20) * 50;
     }
 
-    public void draw(Graphics2D win) {
-        win.drawImage(Misc.loadImage("SASAN.png"), this.x, this.y, 50, 50, null);
+    public int getAX() {
+        return x;
+    }
+
+    public int getAY() {
+        return y;
+    }
+
+    public void draw(Graphics2D win, boolean s) {
+        if (s) {
+            win.drawImage(Misc.loadImage("apple.png"), this.x, this.y, 50, 50, null);
+        } else {
+            win.drawImage(Misc.loadImage("SASAN.png"), this.x, this.y, 50, 50, null);
+        }
     }
 
 
